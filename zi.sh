@@ -37,7 +37,7 @@ WantedBy=multi-user.target
 EOF
 
 echo -e "Defina su contraseña a continuación:"
-read -p "Escriba su nueva contraseña: (al dar enter la contraseña por default será 'dealer'): " input_config
+read -p "Escriba su nueva contraseña: (si da enter la contraseña será 'dealer'): " input_config
 
 if [ -n "$input_config" ]; then
     IFS=',' read -r -a config <<< "$input_config"
