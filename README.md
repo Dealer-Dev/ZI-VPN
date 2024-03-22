@@ -23,3 +23,5 @@ Link app play store:
                 
 ----
 Bash script by @DealerServices235
+
+Desrrollado en termux!
